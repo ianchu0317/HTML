@@ -1,0 +1,49 @@
+/* Website background color */
+html{
+    background-color:burlywood;
+}
+
+/* Page title */
+.title {
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Logo image */
+#logo {
+    width: 150px;
+    margin-top: -50px;
+    margin-left: -140px;
+    position:absolute;
+}
+
+
+/* Content box */
+.content {
+    width: 200px;
+    font-size: 16px;
+    background-color: bisque;
+    border-color:chocolate;
+    border:solid;
+    padding-left: 20px;
+    padding-right: -10px;
+    margin-left: 5%;
+    margin-top: 5rem;
+    position: relative;
+}
+
+/* Presentation image */
+#p_image{
+    position: static;
+    width: 350px;
+    margin-left: 60%;
+    margin-top: -50%;
+    border-radius: 30px;
+}
+
+
+
+.description {
+    margin: 30px;
+}
