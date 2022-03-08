@@ -1,0 +1,36 @@
+html{
+    /* background-color: black; */ 
+    margin: 0;
+    background-color: grey;
+}
+
+header{
+    margin-top:-10px;
+    margin-left: -30px;
+}
+
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: black;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px 5px;
+    margin:5px;
+    outline: 3px solid black; 
+    outline-offset: 3px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+li:hover{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 10px;
+    opacity:0.7;
+}
