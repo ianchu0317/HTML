@@ -4,16 +4,66 @@ html{
     padding:0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.5)), url("../mountain_c.jpg");
+
+    /* Background settings */
     background-size: cover;
     background-position: center;
-    background-attachment:scroll;
+    background-attachment: scroll;
+}
+
+/* Nav bar */
+header {    
+    /* Navbar size */
+    width: 100%;
+    /* Navbar position */
+    top:0;
+    right:0;
+    position:fixed;
+    /* Style */
+    background-color: rgba(0,0,0,0.25);
+}
+
+header ul{
+    display:block;
+}
+
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+    /* Sizing */
+    font-size: 2.5vh;
+    margin: 0 1vw;
+    padding: 1.5vw;
+    transition: all 0.5s;
+}
+
+header ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(189, 176, 176);
+
+}
+
+header ul li:hover{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(189, 176, 176);
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 5vw;
 }
 
 
+
+/* Main title */
 h1{
+    /* positions */
+    margin-top: 11.5vh;
+    /* position: relative; */
     text-align: center;
     text-decoration: underline;
 }
+
+
 
 /* Div properties */
 div{
@@ -24,9 +74,23 @@ div{
     color: rgb(189, 176, 176);
 }
 
+
+
+.introduction img{
+    float:left;
+    margin: 2vw;
+}
+
+.introduction p{
+    top: 30;
+}
+    
+
+
 .description img{
     float:right;
     width: 300px;
-    
-    
+    height: 100;
+    margin: 2vw;
+
 }
