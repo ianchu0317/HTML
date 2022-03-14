@@ -9,23 +9,29 @@
     width: 300px;
     height: 400px;
 }
-.container .on-hover, img{
+
+.container > .on-hover, .container > img{
     position: absolute;
     width: 100%;
     height: 100%;
     border-radius: 10%;
 }
+
 .on-hover{
     transition: all 0.4s ease;
+    color: rgba(0, 0, 0, 0);
+}
+.on-hover > h3{
+    text-align: center;
 }
 
-.on-hover h3{
-    color:white;
-    text-align: center;
-    justify-content: 50%;
-}
-.on-hover:hover{
+
+/* When hover */
+.container:hover .on-hover{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.container:hover .on-hover{
+    color:rgba(255, 255, 255, 1);
+}
 
